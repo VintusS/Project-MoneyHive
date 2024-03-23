@@ -9,7 +9,7 @@ import SwiftUI
 
 struct IntroductionView: View {
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.", GuideImage: "GuideImage1", ButtonText: "Next", NavigationDestination: {IntroductionView()})
     }
 }
 

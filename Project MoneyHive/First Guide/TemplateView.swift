@@ -7,28 +7,31 @@
 
 import SwiftUI
 
-struct TemplateView: View {
+struct TemplateView<Content: View>: View {
     let Heading: String
     let Subheading: String
+    let GuideImage: String
+    let ButtonText: String
+    let NavigationDestination: () -> Content
     
     var body: some View {
         NavigationView {
             VStack {
                 Spacer()
-                Image("GuideView1")
+                Image(GuideImage)
                     .resizable()
                     .frame(width: 352.99, height: 300)
                 Spacer()
                 Text(Heading)
                     .font(.custom("InriaSans-Bold", size: 35))
-                    .padding(.bottom, 10)
+                    .padding([.bottom, .top], 10)
                 Text(Subheading)
                     .font(.custom("InriaSans-Regular", size: 15))
                     .opacity(0.5)
                     .frame(width: 280)
                     .multilineTextAlignment(.center)
                 Spacer()
-                CustomButton(title: "Next")
+                CustomButton(title: ButtonText, NavigationDestination: NavigationDestination)
                 Spacer()
             }
             .padding()
@@ -36,11 +39,12 @@ struct TemplateView: View {
     }
 }
 
-struct CustomButton: View {
+struct CustomButton<Content: View>: View {
     var title: String
+    let NavigationDestination: () -> Content
     
     var body: some View {
-        NavigationLink(destination: IntroductionView()) {
+        NavigationLink(destination: NavigationDestination()) {
             Text(title)
                 .frame(width: 245, height: 60)
                 .foregroundColor(.white)
@@ -58,5 +62,5 @@ struct CustomButton: View {
 }
 
 #Preview {
-    TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.")
+    TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.", GuideImage: "GuideImage1", ButtonText: "Next", NavigationDestination: {IntroductionView()})
 }
