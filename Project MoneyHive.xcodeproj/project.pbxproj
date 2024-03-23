@@ -21,6 +21,7 @@
 		71847AB82BAF58A4007890F7 /* InriaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */; };
 		71847AB92BAF58A4007890F7 /* InriaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */; };
 		71847ABA2BAF58A4007890F7 /* InriaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */; };
+		71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -58,6 +59,7 @@
 		71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Regular.ttf"; sourceTree = "<group>"; };
 		71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Italic.ttf"; sourceTree = "<group>"; };
+		71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 		7167E9912BAEEC35003C0A0F /* Project MoneyHive */ = {
 			isa = PBXGroup;
 			children = (
+				71847ABC2BAF5CB7007890F7 /* Extensions */,
 				71847AAD2BAF5876007890F7 /* Fonts */,
 				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
 				7167E9942BAEEC35003C0A0F /* MainView.swift */,
@@ -170,6 +173,14 @@
 				71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */,
 			);
 			path = InriaSans;
+			sourceTree = "<group>";
+		};
+		71847ABC2BAF5CB7007890F7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
 				7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
+				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

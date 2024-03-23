@@ -13,7 +13,7 @@ struct FirstGuideView: View {
             Spacer()
             Text("Here's the first lookd")
             Spacer()
-            CustomButton(title: "Nextg") {
+            CustomButton(title: "Next") {
                 print("test")
             }
         }
@@ -28,13 +28,18 @@ struct CustomButton: View {
     var body: some View {
         Button(action: action) {
             Text(title)
-                .padding()
+                .frame(width: 245, height: 60)
                 .foregroundStyle(Color.white)
-                .background(Color.blue)
+                .background(
+                    LinearGradient(
+                        gradient: Gradient(colors: [Color(hex: "#04E0FC"), Color(hex: "#007BBC")]),
+                        startPoint: UnitPoint(x: 0.25, y: 1),
+                        endPoint: UnitPoint.topTrailing
+                    )
+                )
                 .cornerRadius(10)
-                .font(.custom("InriaSans-Regular", size: 20))
+                .font(.custom("InriaSans-Bold", size: 20))
         }
-        .frame(width: 245)
     }
 }
 
