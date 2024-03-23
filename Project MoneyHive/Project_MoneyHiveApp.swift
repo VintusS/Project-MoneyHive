@@ -11,7 +11,7 @@ import SwiftUI
 struct Project_MoneyHiveApp: App {
     var body: some Scene {
         WindowGroup {
-            MainView()
+            TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.")
         }
     }
 }
