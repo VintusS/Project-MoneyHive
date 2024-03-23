@@ -14,7 +14,7 @@
 		7167E9A42BAEEC36003C0A0F /* Project_MoneyHiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9A32BAEEC36003C0A0F /* Project_MoneyHiveTests.swift */; };
 		7167E9AE2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */; };
 		7167E9B02BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */; };
-		7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */; };
+		7167E9BD2BAEEFA4003C0A0F /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9BC2BAEEFA4003C0A0F /* IntroductionView.swift */; };
 		71847AB52BAF58A4007890F7 /* InriaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AAF2BAF58A4007890F7 /* InriaSans-Bold.ttf */; };
 		71847AB62BAF58A4007890F7 /* InriaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB02BAF58A4007890F7 /* InriaSans-LightItalic.ttf */; };
 		71847AB72BAF58A4007890F7 /* InriaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB12BAF58A4007890F7 /* InriaSans-Light.ttf */; };
@@ -52,7 +52,7 @@
 		7167E9A92BAEEC36003C0A0F /* Project MoneyHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project MoneyHiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITests.swift; sourceTree = "<group>"; };
 		7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGuideView.swift; sourceTree = "<group>"; };
+		7167E9BC2BAEEFA4003C0A0F /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
 		71847AAF2BAF58A4007890F7 /* InriaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Bold.ttf"; sourceTree = "<group>"; };
 		71847AB02BAF58A4007890F7 /* InriaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-LightItalic.ttf"; sourceTree = "<group>"; };
 		71847AB12BAF58A4007890F7 /* InriaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Light.ttf"; sourceTree = "<group>"; };
@@ -149,7 +149,7 @@
 		7167E9BE2BAF542C003C0A0F /* First Guide */ = {
 			isa = PBXGroup;
 			children = (
-				7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */,
+				7167E9BC2BAEEFA4003C0A0F /* IntroductionView.swift */,
 			);
 			path = "First Guide";
 			sourceTree = "<group>";
@@ -320,7 +320,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
-				7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */,
+				7167E9BD2BAEEFA4003C0A0F /* IntroductionView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,
 			);

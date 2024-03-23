@@ -7,11 +7,25 @@
 
 import SwiftUI
 
-struct FirstGuideView: View {
+struct IntroductionView: View {
+    @State var Heading: String
+    @State var Subheading: String
+    
     var body: some View {
         VStack {
             Spacer()
-            Text("Here's the first lookd")
+            Image("GuideView1")
+                .resizable()
+                .frame(width: 352.99, height: 300)
+            Spacer()
+            Text(Heading)
+                .font(.custom("InriaSans-Bold", size: 35))
+                .padding(.bottom, 10)
+            Text(Subheading)
+                .font(.custom("InriaSans-Regular", size: 15))
+                .opacity(0.5)
+                .frame(width: 280)
+                .multilineTextAlignment(.center)
             Spacer()
             CustomButton(title: "Next") {
                 print("test")
@@ -44,5 +58,5 @@ struct CustomButton: View {
 }
 
 #Preview {
-    FirstGuideView()
+    IntroductionView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.")
 }
