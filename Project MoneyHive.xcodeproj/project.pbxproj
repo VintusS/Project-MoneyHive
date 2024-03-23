@@ -26,6 +26,12 @@
 		71847AC22BAF6C98007890F7 /* GuideView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC12BAF6C98007890F7 /* GuideView2.swift */; };
 		71847AC42BAF6CC0007890F7 /* GuideView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC32BAF6CC0007890F7 /* GuideView3.swift */; };
 		71847AC62BAF6D91007890F7 /* GuideView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC52BAF6D91007890F7 /* GuideView4.swift */; };
+		71847ACA2BAF86F7007890F7 /* AddButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC92BAF86F7007890F7 /* AddButton.swift */; };
+		71847ACD2BAF88EA007890F7 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ACC2BAF88EA007890F7 /* HomeView.swift */; };
+		71847AD02BAF8900007890F7 /* OverviewView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ACF2BAF8900007890F7 /* OverviewView.swift */; };
+		71847AD22BAF8907007890F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD12BAF8907007890F7 /* SettingsView.swift */; };
+		71847AD42BAF890E007890F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD32BAF890E007890F7 /* ProfileView.swift */; };
+		71847AD82BAF948C007890F7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD72BAF948C007890F7 /* CustomTabBar.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,6 +74,12 @@
 		71847AC12BAF6C98007890F7 /* GuideView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView2.swift; sourceTree = "<group>"; };
 		71847AC32BAF6CC0007890F7 /* GuideView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView3.swift; sourceTree = "<group>"; };
 		71847AC52BAF6D91007890F7 /* GuideView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView4.swift; sourceTree = "<group>"; };
+		71847AC92BAF86F7007890F7 /* AddButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddButton.swift; sourceTree = "<group>"; };
+		71847ACC2BAF88EA007890F7 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		71847ACF2BAF8900007890F7 /* OverviewView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverviewView.swift; sourceTree = "<group>"; };
+		71847AD12BAF8907007890F7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		71847AD32BAF890E007890F7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		71847AD72BAF948C007890F7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,10 +130,9 @@
 		7167E9912BAEEC35003C0A0F /* Project MoneyHive */ = {
 			isa = PBXGroup;
 			children = (
+				71847AC72BAF8673007890F7 /* App */,
 				71847ABC2BAF5CB7007890F7 /* Extensions */,
 				71847AAD2BAF5876007890F7 /* Fonts */,
-				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
-				7167E9942BAEEC35003C0A0F /* MainView.swift */,
 				7167E9BE2BAF542C003C0A0F /* First Guide */,
 				7167E9962BAEEC36003C0A0F /* Assets.xcassets */,
 				7167E9982BAEEC36003C0A0F /* Preview Content */,
@@ -193,6 +204,37 @@
 				71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		71847AC72BAF8673007890F7 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				71847AC82BAF86CA007890F7 /* Components */,
+				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
+				7167E9942BAEEC35003C0A0F /* MainView.swift */,
+				71847ACB2BAF88DC007890F7 /* Sections */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		71847AC82BAF86CA007890F7 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				71847AC92BAF86F7007890F7 /* AddButton.swift */,
+				71847AD72BAF948C007890F7 /* CustomTabBar.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		71847ACB2BAF88DC007890F7 /* Sections */ = {
+			isa = PBXGroup;
+			children = (
+				71847ACC2BAF88EA007890F7 /* HomeView.swift */,
+				71847ACF2BAF8900007890F7 /* OverviewView.swift */,
+				71847AD12BAF8907007890F7 /* SettingsView.swift */,
+				71847AD32BAF890E007890F7 /* ProfileView.swift */,
+			);
+			path = Sections;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -332,13 +374,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				71847AC62BAF6D91007890F7 /* GuideView4.swift in Sources */,
+				71847AD42BAF890E007890F7 /* ProfileView.swift in Sources */,
+				71847AD82BAF948C007890F7 /* CustomTabBar.swift in Sources */,
 				71847AC22BAF6C98007890F7 /* GuideView2.swift in Sources */,
 				71847AC02BAF6150007890F7 /* GuideView1.swift in Sources */,
+				71847ACD2BAF88EA007890F7 /* HomeView.swift in Sources */,
+				71847ACA2BAF86F7007890F7 /* AddButton.swift in Sources */,
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
 				7167E9BD2BAEEFA4003C0A0F /* TemplateView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,
+				71847AD22BAF8907007890F7 /* SettingsView.swift in Sources */,
 				71847AC42BAF6CC0007890F7 /* GuideView3.swift in Sources */,
+				71847AD02BAF8900007890F7 /* OverviewView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

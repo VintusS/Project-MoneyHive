@@ -59,6 +59,7 @@ struct CustomButton<Content: View>: View {
                 .cornerRadius(10)
                 .font(.custom("InriaSans-Bold", size: 20))
         }
+        .shadow(color: .gray, radius: 4, x: 0, y: 4)
     }
 }
 

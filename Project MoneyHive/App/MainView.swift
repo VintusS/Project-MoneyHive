@@ -9,7 +9,10 @@ import SwiftUI
 
 struct MainView: View {
     var body: some View {
-        Text("Test")
+        Spacer()
+        Text("Random")
+        Spacer()
+        CustomTabBar()
     }
 }
 
