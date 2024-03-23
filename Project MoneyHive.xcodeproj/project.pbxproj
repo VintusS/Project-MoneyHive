@@ -22,7 +22,10 @@
 		71847AB92BAF58A4007890F7 /* InriaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */; };
 		71847ABA2BAF58A4007890F7 /* InriaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */; };
 		71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */; };
-		71847AC02BAF6150007890F7 /* IntroductionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ABF2BAF6150007890F7 /* IntroductionView.swift */; };
+		71847AC02BAF6150007890F7 /* GuideView1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ABF2BAF6150007890F7 /* GuideView1.swift */; };
+		71847AC22BAF6C98007890F7 /* GuideView2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC12BAF6C98007890F7 /* GuideView2.swift */; };
+		71847AC42BAF6CC0007890F7 /* GuideView3.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC32BAF6CC0007890F7 /* GuideView3.swift */; };
+		71847AC62BAF6D91007890F7 /* GuideView4.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AC52BAF6D91007890F7 /* GuideView4.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,7 +64,10 @@
 		71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
 		71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Italic.ttf"; sourceTree = "<group>"; };
 		71847ABD2BAF5CCC007890F7 /* ColorExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorExtension.swift; sourceTree = "<group>"; };
-		71847ABF2BAF6150007890F7 /* IntroductionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroductionView.swift; sourceTree = "<group>"; };
+		71847ABF2BAF6150007890F7 /* GuideView1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView1.swift; sourceTree = "<group>"; };
+		71847AC12BAF6C98007890F7 /* GuideView2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView2.swift; sourceTree = "<group>"; };
+		71847AC32BAF6CC0007890F7 /* GuideView3.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView3.swift; sourceTree = "<group>"; };
+		71847AC52BAF6D91007890F7 /* GuideView4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuideView4.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -152,7 +158,10 @@
 			isa = PBXGroup;
 			children = (
 				7167E9BC2BAEEFA4003C0A0F /* TemplateView.swift */,
-				71847ABF2BAF6150007890F7 /* IntroductionView.swift */,
+				71847ABF2BAF6150007890F7 /* GuideView1.swift */,
+				71847AC12BAF6C98007890F7 /* GuideView2.swift */,
+				71847AC32BAF6CC0007890F7 /* GuideView3.swift */,
+				71847AC52BAF6D91007890F7 /* GuideView4.swift */,
 			);
 			path = "First Guide";
 			sourceTree = "<group>";
@@ -322,11 +331,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				71847AC02BAF6150007890F7 /* IntroductionView.swift in Sources */,
+				71847AC62BAF6D91007890F7 /* GuideView4.swift in Sources */,
+				71847AC22BAF6C98007890F7 /* GuideView2.swift in Sources */,
+				71847AC02BAF6150007890F7 /* GuideView1.swift in Sources */,
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
 				7167E9BD2BAEEFA4003C0A0F /* TemplateView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,
+				71847AC42BAF6CC0007890F7 /* GuideView3.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

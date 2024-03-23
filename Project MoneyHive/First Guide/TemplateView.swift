@@ -11,6 +11,7 @@ struct TemplateView<Content: View>: View {
     let Heading: String
     let Subheading: String
     let GuideImage: String
+    let ImageSize: [CGFloat]
     let ButtonText: String
     let NavigationDestination: () -> Content
     
@@ -20,7 +21,7 @@ struct TemplateView<Content: View>: View {
                 Spacer()
                 Image(GuideImage)
                     .resizable()
-                    .frame(width: 352.99, height: 300)
+                    .frame(width: ImageSize[0], height: ImageSize[1])
                 Spacer()
                 Text(Heading)
                     .font(.custom("InriaSans-Bold", size: 35))
@@ -62,5 +63,5 @@ struct CustomButton<Content: View>: View {
 }
 
 #Preview {
-    TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.", GuideImage: "GuideImage1", ButtonText: "Next", NavigationDestination: {IntroductionView()})
+    TemplateView(Heading: "Introduction", Subheading: "MoneyHive simplifies financial tracking, budgeting, and investment monitoring, aiding informed decisions.", GuideImage: "GuideImage3",ImageSize: [270, 300], ButtonText: "Next", NavigationDestination: {GuideView1()})
 }
