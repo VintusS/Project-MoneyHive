@@ -15,6 +15,12 @@
 		7167E9AE2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */; };
 		7167E9B02BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */; };
 		7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */; };
+		71847AB52BAF58A4007890F7 /* InriaSans-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AAF2BAF58A4007890F7 /* InriaSans-Bold.ttf */; };
+		71847AB62BAF58A4007890F7 /* InriaSans-LightItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB02BAF58A4007890F7 /* InriaSans-LightItalic.ttf */; };
+		71847AB72BAF58A4007890F7 /* InriaSans-Light.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB12BAF58A4007890F7 /* InriaSans-Light.ttf */; };
+		71847AB82BAF58A4007890F7 /* InriaSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */; };
+		71847AB92BAF58A4007890F7 /* InriaSans-BoldItalic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */; };
+		71847ABA2BAF58A4007890F7 /* InriaSans-Italic.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +52,12 @@
 		7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITests.swift; sourceTree = "<group>"; };
 		7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGuideView.swift; sourceTree = "<group>"; };
+		71847AAF2BAF58A4007890F7 /* InriaSans-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Bold.ttf"; sourceTree = "<group>"; };
+		71847AB02BAF58A4007890F7 /* InriaSans-LightItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-LightItalic.ttf"; sourceTree = "<group>"; };
+		71847AB12BAF58A4007890F7 /* InriaSans-Light.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Light.ttf"; sourceTree = "<group>"; };
+		71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Regular.ttf"; sourceTree = "<group>"; };
+		71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-BoldItalic.ttf"; sourceTree = "<group>"; };
+		71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "InriaSans-Italic.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +108,7 @@
 		7167E9912BAEEC35003C0A0F /* Project MoneyHive */ = {
 			isa = PBXGroup;
 			children = (
+				71847AAD2BAF5876007890F7 /* Fonts */,
 				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
 				7167E9942BAEEC35003C0A0F /* MainView.swift */,
 				7167E9BE2BAF542C003C0A0F /* First Guide */,
@@ -136,6 +149,27 @@
 				7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */,
 			);
 			path = "First Guide";
+			sourceTree = "<group>";
+		};
+		71847AAD2BAF5876007890F7 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				71847AAE2BAF587B007890F7 /* InriaSans */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		71847AAE2BAF587B007890F7 /* InriaSans */ = {
+			isa = PBXGroup;
+			children = (
+				71847AAF2BAF58A4007890F7 /* InriaSans-Bold.ttf */,
+				71847AB32BAF58A4007890F7 /* InriaSans-BoldItalic.ttf */,
+				71847AB42BAF58A4007890F7 /* InriaSans-Italic.ttf */,
+				71847AB12BAF58A4007890F7 /* InriaSans-Light.ttf */,
+				71847AB02BAF58A4007890F7 /* InriaSans-LightItalic.ttf */,
+				71847AB22BAF58A4007890F7 /* InriaSans-Regular.ttf */,
+			);
+			path = InriaSans;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -242,8 +276,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71847AB62BAF58A4007890F7 /* InriaSans-LightItalic.ttf in Resources */,
 				7167E99A2BAEEC36003C0A0F /* Preview Assets.xcassets in Resources */,
 				7167E9972BAEEC36003C0A0F /* Assets.xcassets in Resources */,
+				71847ABA2BAF58A4007890F7 /* InriaSans-Italic.ttf in Resources */,
+				71847AB52BAF58A4007890F7 /* InriaSans-Bold.ttf in Resources */,
+				71847AB92BAF58A4007890F7 /* InriaSans-BoldItalic.ttf in Resources */,
+				71847AB82BAF58A4007890F7 /* InriaSans-Regular.ttf in Resources */,
+				71847AB72BAF58A4007890F7 /* InriaSans-Light.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +477,8 @@
 				DEVELOPMENT_TEAM = K9YT824399;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-MoneyHive-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -466,6 +508,8 @@
 				DEVELOPMENT_TEAM = K9YT824399;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Project-MoneyHive-Info.plist";
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

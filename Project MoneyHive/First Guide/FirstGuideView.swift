@@ -13,11 +13,28 @@ struct FirstGuideView: View {
             Spacer()
             Text("Here's the first lookd")
             Spacer()
-            Button("Let's Start"){
-                
+            CustomButton(title: "Nextg") {
+                print("test")
             }
         }
         .padding()
+    }
+}
+
+struct CustomButton: View {
+    var title: String
+    var action: () -> Void
+    
+    var body: some View {
+        Button(action: action) {
+            Text(title)
+                .padding()
+                .foregroundStyle(Color.white)
+                .background(Color.blue)
+                .cornerRadius(10)
+                .font(.custom("InriaSans-Regular", size: 20))
+        }
+        .frame(width: 245)
     }
 }
 
