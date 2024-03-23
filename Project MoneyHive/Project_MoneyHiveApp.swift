@@ -11,7 +11,7 @@ import SwiftUI
 struct Project_MoneyHiveApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MainView()
         }
     }
 }

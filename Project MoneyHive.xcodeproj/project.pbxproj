@@ -8,12 +8,13 @@
 
 /* Begin PBXBuildFile section */
 		7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */; };
-		7167E9952BAEEC35003C0A0F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9942BAEEC35003C0A0F /* ContentView.swift */; };
+		7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9942BAEEC35003C0A0F /* MainView.swift */; };
 		7167E9972BAEEC36003C0A0F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7167E9962BAEEC36003C0A0F /* Assets.xcassets */; };
 		7167E99A2BAEEC36003C0A0F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7167E9992BAEEC36003C0A0F /* Preview Assets.xcassets */; };
 		7167E9A42BAEEC36003C0A0F /* Project_MoneyHiveTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9A32BAEEC36003C0A0F /* Project_MoneyHiveTests.swift */; };
 		7167E9AE2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */; };
 		7167E9B02BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */; };
+		7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +37,7 @@
 /* Begin PBXFileReference section */
 		7167E98F2BAEEC35003C0A0F /* Project MoneyHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project MoneyHive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveApp.swift; sourceTree = "<group>"; };
-		7167E9942BAEEC35003C0A0F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7167E9942BAEEC35003C0A0F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7167E9962BAEEC36003C0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7167E9992BAEEC36003C0A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		7167E99F2BAEEC36003C0A0F /* Project MoneyHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project MoneyHiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,7 @@
 		7167E9A92BAEEC36003C0A0F /* Project MoneyHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project MoneyHiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITests.swift; sourceTree = "<group>"; };
 		7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstGuideView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,7 +97,8 @@
 			isa = PBXGroup;
 			children = (
 				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
-				7167E9942BAEEC35003C0A0F /* ContentView.swift */,
+				7167E9942BAEEC35003C0A0F /* MainView.swift */,
+				7167E9BE2BAF542C003C0A0F /* First Guide */,
 				7167E9962BAEEC36003C0A0F /* Assets.xcassets */,
 				7167E9982BAEEC36003C0A0F /* Preview Content */,
 			);
@@ -125,6 +128,14 @@
 				7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */,
 			);
 			path = "Project MoneyHiveUITests";
+			sourceTree = "<group>";
+		};
+		7167E9BE2BAF542C003C0A0F /* First Guide */ = {
+			isa = PBXGroup;
+			children = (
+				7167E9BC2BAEEFA4003C0A0F /* FirstGuideView.swift */,
+			);
+			path = "First Guide";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -257,7 +268,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7167E9952BAEEC35003C0A0F /* ContentView.swift in Sources */,
+				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
+				7167E9BD2BAEEFA4003C0A0F /* FirstGuideView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
