@@ -12,8 +12,11 @@ struct NewIncomeView: View {
 
     var body: some View {
         VStack {
-            Text("Add Income")
-                .font(.custom("InriaSans-Bold", size: 20))
+            HStack{
+                
+                Text("Add Income")
+                    .font(.custom("InriaSans-Bold", size: 20))
+            }
             
             Button(action: {
                 presentationMode.wrappedValue.dismiss()

@@ -36,6 +36,7 @@
 		71847ADE2BB096EB007890F7 /* TabBarCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ADD2BB096EB007890F7 /* TabBarCurveShape.swift */; };
 		71847AE12BB0A630007890F7 /* NewIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AE02BB0A630007890F7 /* NewIncomeView.swift */; };
 		71847AE32BB0A812007890F7 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AE22BB0A812007890F7 /* NewExpenseView.swift */; };
+		71847AE52BB0B1F3007890F7 /* CustomBackButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AE42BB0B1F3007890F7 /* CustomBackButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -88,6 +89,7 @@
 		71847ADD2BB096EB007890F7 /* TabBarCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCurveShape.swift; sourceTree = "<group>"; };
 		71847AE02BB0A630007890F7 /* NewIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncomeView.swift; sourceTree = "<group>"; };
 		71847AE22BB0A812007890F7 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		71847AE42BB0B1F3007890F7 /* CustomBackButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomBackButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 				71847AC92BAF86F7007890F7 /* AddButton.swift */,
 				71847AD72BAF948C007890F7 /* CustomTabBar.swift */,
 				71847ADD2BB096EB007890F7 /* TabBarCurveShape.swift */,
+				71847AE42BB0B1F3007890F7 /* CustomBackButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -399,6 +402,7 @@
 				71847ADE2BB096EB007890F7 /* TabBarCurveShape.swift in Sources */,
 				71847AC22BAF6C98007890F7 /* GuideView2.swift in Sources */,
 				71847AC02BAF6150007890F7 /* GuideView1.swift in Sources */,
+				71847AE52BB0B1F3007890F7 /* CustomBackButton.swift in Sources */,
 				71847ACD2BAF88EA007890F7 /* HomeView.swift in Sources */,
 				71847ACA2BAF86F7007890F7 /* AddButton.swift in Sources */,
 				71847AE32BB0A812007890F7 /* NewExpenseView.swift in Sources */,
