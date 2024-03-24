@@ -32,8 +32,10 @@
 		71847AD22BAF8907007890F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD12BAF8907007890F7 /* SettingsView.swift */; };
 		71847AD42BAF890E007890F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD32BAF890E007890F7 /* ProfileView.swift */; };
 		71847AD82BAF948C007890F7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD72BAF948C007890F7 /* CustomTabBar.swift */; };
-		71847ADC2BB08E9E007890F7 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */; };
+		71847ADC2BB08E9E007890F7 /* NewRecordView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ADB2BB08E9E007890F7 /* NewRecordView.swift */; };
 		71847ADE2BB096EB007890F7 /* TabBarCurveShape.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ADD2BB096EB007890F7 /* TabBarCurveShape.swift */; };
+		71847AE12BB0A630007890F7 /* NewIncomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AE02BB0A630007890F7 /* NewIncomeView.swift */; };
+		71847AE32BB0A812007890F7 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AE22BB0A812007890F7 /* NewExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,14 +56,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7167E98F2BAEEC35003C0A0F /* Project MoneyHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Project MoneyHive.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7167E98F2BAEEC35003C0A0F /* MoneyHive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MoneyHive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveApp.swift; sourceTree = "<group>"; };
 		7167E9942BAEEC35003C0A0F /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 		7167E9962BAEEC36003C0A0F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7167E9992BAEEC36003C0A0F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		7167E99F2BAEEC36003C0A0F /* Project MoneyHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project MoneyHiveTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7167E99F2BAEEC36003C0A0F /* MoneyHiveTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHiveTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9A32BAEEC36003C0A0F /* Project_MoneyHiveTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveTests.swift; sourceTree = "<group>"; };
-		7167E9A92BAEEC36003C0A0F /* Project MoneyHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Project MoneyHiveUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7167E9A92BAEEC36003C0A0F /* MoneyHiveUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MoneyHiveUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7167E9AD2BAEEC36003C0A0F /* Project_MoneyHiveUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITests.swift; sourceTree = "<group>"; };
 		7167E9AF2BAEEC36003C0A0F /* Project_MoneyHiveUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Project_MoneyHiveUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		7167E9BC2BAEEFA4003C0A0F /* TemplateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TemplateView.swift; sourceTree = "<group>"; };
@@ -82,8 +84,10 @@
 		71847AD12BAF8907007890F7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		71847AD32BAF890E007890F7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		71847AD72BAF948C007890F7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
-		71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
+		71847ADB2BB08E9E007890F7 /* NewRecordView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewRecordView.swift; sourceTree = "<group>"; };
 		71847ADD2BB096EB007890F7 /* TabBarCurveShape.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarCurveShape.swift; sourceTree = "<group>"; };
+		71847AE02BB0A630007890F7 /* NewIncomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewIncomeView.swift; sourceTree = "<group>"; };
+		71847AE22BB0A812007890F7 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,9 +128,9 @@
 		7167E9902BAEEC35003C0A0F /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7167E98F2BAEEC35003C0A0F /* Project MoneyHive.app */,
-				7167E99F2BAEEC36003C0A0F /* Project MoneyHiveTests.xctest */,
-				7167E9A92BAEEC36003C0A0F /* Project MoneyHiveUITests.xctest */,
+				7167E98F2BAEEC35003C0A0F /* MoneyHive.app */,
+				7167E99F2BAEEC36003C0A0F /* MoneyHiveTests.xctest */,
+				7167E9A92BAEEC36003C0A0F /* MoneyHiveUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -213,9 +217,9 @@
 		71847AC72BAF8673007890F7 /* App */ = {
 			isa = PBXGroup;
 			children = (
-				71847AC82BAF86CA007890F7 /* Components */,
 				7167E9922BAEEC35003C0A0F /* Project_MoneyHiveApp.swift */,
 				7167E9942BAEEC35003C0A0F /* MainView.swift */,
+				71847AC82BAF86CA007890F7 /* Components */,
 				71847ACB2BAF88DC007890F7 /* Sections */,
 			);
 			path = App;
@@ -236,19 +240,29 @@
 			children = (
 				71847ACC2BAF88EA007890F7 /* HomeView.swift */,
 				71847ACF2BAF8900007890F7 /* OverviewView.swift */,
-				71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */,
+				71847ADF2BB0A621007890F7 /* New Record */,
 				71847AD12BAF8907007890F7 /* SettingsView.swift */,
 				71847AD32BAF890E007890F7 /* ProfileView.swift */,
 			);
 			path = Sections;
 			sourceTree = "<group>";
 		};
+		71847ADF2BB0A621007890F7 /* New Record */ = {
+			isa = PBXGroup;
+			children = (
+				71847ADB2BB08E9E007890F7 /* NewRecordView.swift */,
+				71847AE02BB0A630007890F7 /* NewIncomeView.swift */,
+				71847AE22BB0A812007890F7 /* NewExpenseView.swift */,
+			);
+			path = "New Record";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7167E98E2BAEEC35003C0A0F /* Project MoneyHive */ = {
+		7167E98E2BAEEC35003C0A0F /* MoneyHive */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7167E9B32BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHive" */;
+			buildConfigurationList = 7167E9B32BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHive" */;
 			buildPhases = (
 				7167E98B2BAEEC35003C0A0F /* Sources */,
 				7167E98C2BAEEC35003C0A0F /* Frameworks */,
@@ -258,14 +272,14 @@
 			);
 			dependencies = (
 			);
-			name = "Project MoneyHive";
+			name = MoneyHive;
 			productName = "Project MoneyHive";
-			productReference = 7167E98F2BAEEC35003C0A0F /* Project MoneyHive.app */;
+			productReference = 7167E98F2BAEEC35003C0A0F /* MoneyHive.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7167E99E2BAEEC36003C0A0F /* Project MoneyHiveTests */ = {
+		7167E99E2BAEEC36003C0A0F /* MoneyHiveTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7167E9B62BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHiveTests" */;
+			buildConfigurationList = 7167E9B62BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHiveTests" */;
 			buildPhases = (
 				7167E99B2BAEEC36003C0A0F /* Sources */,
 				7167E99C2BAEEC36003C0A0F /* Frameworks */,
@@ -276,14 +290,14 @@
 			dependencies = (
 				7167E9A12BAEEC36003C0A0F /* PBXTargetDependency */,
 			);
-			name = "Project MoneyHiveTests";
+			name = MoneyHiveTests;
 			productName = "Project MoneyHiveTests";
-			productReference = 7167E99F2BAEEC36003C0A0F /* Project MoneyHiveTests.xctest */;
+			productReference = 7167E99F2BAEEC36003C0A0F /* MoneyHiveTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7167E9A82BAEEC36003C0A0F /* Project MoneyHiveUITests */ = {
+		7167E9A82BAEEC36003C0A0F /* MoneyHiveUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7167E9B92BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHiveUITests" */;
+			buildConfigurationList = 7167E9B92BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHiveUITests" */;
 			buildPhases = (
 				7167E9A52BAEEC36003C0A0F /* Sources */,
 				7167E9A62BAEEC36003C0A0F /* Frameworks */,
@@ -294,9 +308,9 @@
 			dependencies = (
 				7167E9AB2BAEEC36003C0A0F /* PBXTargetDependency */,
 			);
-			name = "Project MoneyHiveUITests";
+			name = MoneyHiveUITests;
 			productName = "Project MoneyHiveUITests";
-			productReference = 7167E9A92BAEEC36003C0A0F /* Project MoneyHiveUITests.xctest */;
+			productReference = 7167E9A92BAEEC36003C0A0F /* MoneyHiveUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -322,7 +336,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 7167E98A2BAEEC35003C0A0F /* Build configuration list for PBXProject "Project MoneyHive" */;
+			buildConfigurationList = 7167E98A2BAEEC35003C0A0F /* Build configuration list for PBXProject "MoneyHive" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -335,9 +349,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7167E98E2BAEEC35003C0A0F /* Project MoneyHive */,
-				7167E99E2BAEEC36003C0A0F /* Project MoneyHiveTests */,
-				7167E9A82BAEEC36003C0A0F /* Project MoneyHiveUITests */,
+				7167E98E2BAEEC35003C0A0F /* MoneyHive */,
+				7167E99E2BAEEC36003C0A0F /* MoneyHiveTests */,
+				7167E9A82BAEEC36003C0A0F /* MoneyHiveUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -387,9 +401,11 @@
 				71847AC02BAF6150007890F7 /* GuideView1.swift in Sources */,
 				71847ACD2BAF88EA007890F7 /* HomeView.swift in Sources */,
 				71847ACA2BAF86F7007890F7 /* AddButton.swift in Sources */,
+				71847AE32BB0A812007890F7 /* NewExpenseView.swift in Sources */,
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
-				71847ADC2BB08E9E007890F7 /* NewExpenseView.swift in Sources */,
+				71847ADC2BB08E9E007890F7 /* NewRecordView.swift in Sources */,
 				7167E9BD2BAEEFA4003C0A0F /* TemplateView.swift in Sources */,
+				71847AE12BB0A630007890F7 /* NewIncomeView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,
 				71847AD22BAF8907007890F7 /* SettingsView.swift in Sources */,
@@ -420,12 +436,12 @@
 /* Begin PBXTargetDependency section */
 		7167E9A12BAEEC36003C0A0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7167E98E2BAEEC35003C0A0F /* Project MoneyHive */;
+			target = 7167E98E2BAEEC35003C0A0F /* MoneyHive */;
 			targetProxy = 7167E9A02BAEEC36003C0A0F /* PBXContainerItemProxy */;
 		};
 		7167E9AB2BAEEC36003C0A0F /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7167E98E2BAEEC35003C0A0F /* Project MoneyHive */;
+			target = 7167E98E2BAEEC35003C0A0F /* MoneyHive */;
 			targetProxy = 7167E9AA2BAEEC36003C0A0F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -628,7 +644,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project MoneyHive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project MoneyHive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyHive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyHive";
 			};
 			name = Debug;
 		};
@@ -648,7 +664,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Project MoneyHive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Project MoneyHive";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MoneyHive.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MoneyHive";
 			};
 			name = Release;
 		};
@@ -691,7 +707,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7167E98A2BAEEC35003C0A0F /* Build configuration list for PBXProject "Project MoneyHive" */ = {
+		7167E98A2BAEEC35003C0A0F /* Build configuration list for PBXProject "MoneyHive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7167E9B12BAEEC36003C0A0F /* Debug */,
@@ -700,7 +716,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7167E9B32BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHive" */ = {
+		7167E9B32BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHive" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7167E9B42BAEEC36003C0A0F /* Debug */,
@@ -709,7 +725,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7167E9B62BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHiveTests" */ = {
+		7167E9B62BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHiveTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7167E9B72BAEEC36003C0A0F /* Debug */,
@@ -718,7 +734,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7167E9B92BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "Project MoneyHiveUITests" */ = {
+		7167E9B92BAEEC36003C0A0F /* Build configuration list for PBXNativeTarget "MoneyHiveUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				7167E9BA2BAEEC36003C0A0F /* Debug */,

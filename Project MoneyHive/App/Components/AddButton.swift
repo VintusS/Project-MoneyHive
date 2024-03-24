@@ -12,7 +12,7 @@ struct AddButton: View {
         ZStack {
             Circle()
                 .fill(LinearGradient(
-                    gradient: Gradient(colors: [Color(hex: "#04E0FC"), Color(hex: "#007BBC")]),
+                    gradient: Gradient(colors: [Color(hex: "#007BBC"), Color(hex: "#04E0FC")]),
                     startPoint: UnitPoint(x: 0.5, y: 1),
                     endPoint: UnitPoint.topTrailing
                 ))

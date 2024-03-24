@@ -6,7 +6,7 @@
 //
 
 import XCTest
-@testable import Project_MoneyHive
+@testable import MoneyHive
 
 final class Project_MoneyHiveTests: XCTestCase {
 

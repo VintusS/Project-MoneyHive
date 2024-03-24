@@ -20,7 +20,7 @@ struct MainView: View {
             case "Overview":
                 OverviewView()
             case "Add":
-                NewExpenseView()
+                NewRecordView()
             case "Settings":
                 SettingsView()
             case "Profile":
@@ -28,12 +28,13 @@ struct MainView: View {
             default:
                 Text("Selection does not match any tabs")
             }
-
+            
             Spacer()
-
+            
             CustomTabBar(selectedTab: $selectedTab)
                 .padding(.bottom, -20)
         }
+        .navigationBarHidden(true)
         .padding()
     }
 }
