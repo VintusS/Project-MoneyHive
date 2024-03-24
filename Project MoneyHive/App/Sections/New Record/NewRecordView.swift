@@ -25,14 +25,16 @@ struct NewRecordView: View {
                         navigateToNewIncome = true
                     }) {
                         RoundedRectangle(cornerRadius: 10)
-                            .fill(Color.blue.opacity(0.4))
+                            .fill(Color.blue.opacity(0.2))
                             .frame(height: 100)
                             .overlay(
                                 VStack {
                                     Image(systemName: "plus.circle")
                                         .font(.largeTitle)
+                                        .foregroundStyle(Color(hex: "#007BBC"))
                                     Text("Add Income")
                                         .font(.custom("InriaSans-Regular", size: 20))
+                                        .foregroundStyle(Color.black)
                                 }
                                 .foregroundColor(.white)
                             )
@@ -44,21 +46,23 @@ struct NewRecordView: View {
                         navigateToNewExpense = true
                     }) {
                         RoundedRectangle(cornerRadius: 10)
-                            .fill(Color.red.opacity(0.4))
+                            .fill(Color.red.opacity(0.2))
                             .frame(height: 100)
                             .overlay(
                                 VStack {
                                     Image(systemName: "minus.circle")
                                         .font(.largeTitle)
+                                        .foregroundStyle(Color(hex: "#FF0000"))
                                     Text("Add Expense")
                                         .font(.custom("InriaSans-Regular", size: 20))
+                                        .foregroundStyle(Color.black)
                                 }
                                 .foregroundColor(.white)
                             )
                     }
                 }
+                .padding(.bottom, 20)
                 
-                Spacer()
                 
                 HStack {
                     Text("Last records")
