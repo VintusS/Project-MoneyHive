@@ -9,11 +9,17 @@ import SwiftUI
 
 struct CustomTabBar: View {
     @Binding var selectedTab: String
-    let yOffset: CGFloat = 20.0
+    let yOffset: CGFloat = 5.0
     
     var body: some View {
+        VStack(spacing: 0) {
+            TabBarCurveShape()
+                .stroke(Color(hex: "#007BBC"), lineWidth: 2)
+                .frame(height: yOffset)
+                .background(Color.clear)
+                .padding(.horizontal, -50)
+
             HStack {
-                
                 Spacer()
                 
                 Button {
@@ -45,12 +51,11 @@ struct CustomTabBar: View {
                     }
                 }
                 .tint(selectedTab == "Overview" ? Color(hex: "#007BBC") : Color.gray)
+                
                 Spacer()
                 
-                Button {
-                    withAnimation {
-                        selectedTab = "Add"
-                    }
+                Button{
+                    selectedTab = "Add"
                 } label: {
                     AddButton()
                 }
@@ -92,7 +97,8 @@ struct CustomTabBar: View {
             }
         }
     }
+}
 
-//#Preview {
-//    CustomTabBar(selectedTab: "Home")
-//}
+#Preview {
+    CustomTabBar(selectedTab: .constant("Home"))
+}
