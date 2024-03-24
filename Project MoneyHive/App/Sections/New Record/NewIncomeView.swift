@@ -12,11 +12,21 @@ struct NewIncomeView: View {
 
     var body: some View {
         VStack {
-            HStack{
-                
-                Text("Add Income")
-                    .font(.custom("InriaSans-Bold", size: 20))
+            ZStack {
+                HStack{
+                    Button(action: {
+                        presentationMode.wrappedValue.dismiss()
+                    }, label: {
+                        CustomBackButton()
+                    })
+                    Spacer()
+                }
+                HStack{
+                    Text("Add Income")
+                        .font(.custom("InriaSans-Bold", size: 20))
+                }
             }
+            Spacer()
             
             Button(action: {
                 presentationMode.wrappedValue.dismiss()

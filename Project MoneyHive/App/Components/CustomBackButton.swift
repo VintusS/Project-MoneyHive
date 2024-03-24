@@ -14,7 +14,7 @@ struct CustomBackButton: View {
                 .aspectRatio(contentMode: .fit)
                 .foregroundColor(.black)
         }
-        .padding()
+        .padding(12)
         .background(RoundedRectangle(cornerRadius: 10).fill(Color.gray.opacity(0.2)))
     }
 }
