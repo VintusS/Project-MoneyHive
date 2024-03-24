@@ -32,6 +32,7 @@
 		71847AD22BAF8907007890F7 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD12BAF8907007890F7 /* SettingsView.swift */; };
 		71847AD42BAF890E007890F7 /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD32BAF890E007890F7 /* ProfileView.swift */; };
 		71847AD82BAF948C007890F7 /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847AD72BAF948C007890F7 /* CustomTabBar.swift */; };
+		71847ADC2BB08E9E007890F7 /* NewExpenseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -80,6 +81,7 @@
 		71847AD12BAF8907007890F7 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 		71847AD32BAF890E007890F7 /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
 		71847AD72BAF948C007890F7 /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
+		71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewExpenseView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +233,7 @@
 			children = (
 				71847ACC2BAF88EA007890F7 /* HomeView.swift */,
 				71847ACF2BAF8900007890F7 /* OverviewView.swift */,
+				71847ADB2BB08E9E007890F7 /* NewExpenseView.swift */,
 				71847AD12BAF8907007890F7 /* SettingsView.swift */,
 				71847AD32BAF890E007890F7 /* ProfileView.swift */,
 			);
@@ -381,6 +384,7 @@
 				71847ACD2BAF88EA007890F7 /* HomeView.swift in Sources */,
 				71847ACA2BAF86F7007890F7 /* AddButton.swift in Sources */,
 				7167E9952BAEEC35003C0A0F /* MainView.swift in Sources */,
+				71847ADC2BB08E9E007890F7 /* NewExpenseView.swift in Sources */,
 				7167E9BD2BAEEFA4003C0A0F /* TemplateView.swift in Sources */,
 				7167E9932BAEEC35003C0A0F /* Project_MoneyHiveApp.swift in Sources */,
 				71847ABE2BAF5CCC007890F7 /* ColorExtension.swift in Sources */,

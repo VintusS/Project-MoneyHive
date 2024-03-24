@@ -8,11 +8,31 @@
 import SwiftUI
 
 struct MainView: View {
+    @State private var selectedTab = "Home"
+    
     var body: some View {
-        Spacer()
-        Text("Random")
-        Spacer()
-        CustomTabBar()
+        VStack {
+            Spacer()
+            
+            switch selectedTab {
+            case "Home":
+                HomeView()
+            case "Overview":
+                OverviewView()
+            case "Add":
+                NewExpenseView()
+            case "Settings":
+                SettingsView()
+            case "Profile":
+                ProfileView()
+            default:
+                Text("Selection does not match any tabs")
+            }
+
+            Spacer()
+
+            CustomTabBar(selectedTab: $selectedTab)
+        }
     }
 }
 

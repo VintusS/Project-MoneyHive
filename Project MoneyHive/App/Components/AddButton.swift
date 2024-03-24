@@ -17,7 +17,7 @@ struct AddButton: View {
                     endPoint: UnitPoint.topTrailing
                 ))
                 .frame(width: 60, height: 60)
-                .shadow(color: .gray, radius: 2, x: 0, y: 3)
+                .shadow(color: Color(hex: "#007BBC"), radius: 2, x: 0, y: 3)
             Text("+")
                 .font(.custom("InriaSans-Regular", size: 60))
                 .foregroundColor(.white)
